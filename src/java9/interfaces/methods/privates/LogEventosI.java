@@ -28,5 +28,4 @@ public interface LogEventosI {
 		System.out.println("FIM DA MENSAGEM");
 	}
 
-
 }
