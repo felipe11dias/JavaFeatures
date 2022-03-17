@@ -15,7 +15,7 @@ public class SwitchExpressionsEx {
 		
 		input.close();
 		
-		String resultado = "";		
+		//String resultado = "";		
 		/*switch (dia) {
 			case "segunda":
 				resultado = "dia útil";
@@ -44,7 +44,7 @@ public class SwitchExpressionsEx {
 		
 		System.out.println(resultado);*/
 		
-		resultado = switch (dia) {
+		var resultado = switch (dia) {
 			case "segunda", "terça", "quarta", "quinta", "sexta" -> "dia útil";
 			case "sábado", "domingo" -> "final de semana";
 			default -> "dia inválido";
