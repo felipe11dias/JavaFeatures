@@ -8,10 +8,10 @@ public class MinhaClasse2 {
 		// TODO Auto-generated method stub
 		
 		Function<String, String> concatena = (String s) -> s + ". ";
-	
+		System.out.println(concatena);
 		//var em lambda expression
 		Function<String, String> concatena2 = (var s) -> s + ". ";
-		
+		System.out.println(concatena2);
 	}
 
 }

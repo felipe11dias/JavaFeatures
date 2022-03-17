@@ -32,7 +32,7 @@ public class MinhaClasse {
 		/****************************************************************/
 	
 		Function<String, String> concatena = (var s) -> s + ". ";
-		
+		System.out.println(concatena);
 	}
 
 }
