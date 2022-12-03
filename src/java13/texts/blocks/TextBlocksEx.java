@@ -1,4 +1,4 @@
-package java13.text.blocks;
+package java13.texts.blocks;
 
 public class TextBlocksEx {
 
